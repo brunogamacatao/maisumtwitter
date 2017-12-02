@@ -1,0 +1,11 @@
+<StackLayout class="page page-content">
+    <TextField hint="Autor" [(ngModel)]="mensagem.autor"></TextField>
+    <TextField hint="Texto" [(ngModel)]="mensagem.texto"></TextField>
+    <Button text="Enviar" (tap)="enviarMensagem()"></Button>
+    <FlexboxLayout class="container" *ngFor="let mensagem of (mensagens | async)">
+        <FlexboxLayout class="row pad">
+            <Label width="30%" class="bold" [text]="mensagem.autor"></Label>
+            <Label width="70%" class="bold" [text]="mensagem.texto"></Label>
+        </FlexboxLayout>
+    </FlexboxLayout>
+</StackLayout>

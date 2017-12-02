@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "116129643543",
+    "firebase_url": "https://maisumtwitter-3aeab.firebaseio.com",
+    "project_id": "maisumtwitter-3aeab",
+    "storage_bucket": "maisumtwitter-3aeab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116129643543:android:1c95c624e13ba919",
+        "android_client_info": {
+          "package_name": "br.brunocatao.MaisUmTwitterClone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "116129643543-l6u63me68p9gp8fnv84d8rilabrj3t8q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNaMeusF4iI6bkU8tNNKP-AAl45vlqBNU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
